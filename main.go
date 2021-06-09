@@ -10,7 +10,7 @@ func HelloWorld() {
 	fmt.Println("Hello World")
 }
 
-
 func main() {
 	printHelp()
+	HelloWorld()
 }
