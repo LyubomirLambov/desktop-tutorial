@@ -1,9 +1,11 @@
 package main
 
-
 import "fmt"
 
+func printHelp() {
+	fmt.Println("This is a help section.")
+}
+
 func main() {
-  fmt.Println("Hello new World")
-  fmt.Println("fjdklsfjkldsjkflsd")
+	printHelp()
 }
